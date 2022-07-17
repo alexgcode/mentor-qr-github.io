@@ -1,16 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Outfit&display=swap');
 
-.attribution { font-size: 11px; text-align: center; }
-.attribution a { color: hsl(228, 45%, 44%); }
-
 body {
     background-color: hsl(212, 45%, 89%);
 }
 
 .card-holder {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: repeat(3, 0.5fr);
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
 }
 
 .card {
@@ -18,15 +18,7 @@ body {
     background-color: white;
     max-width: 250px;
     padding: 25px;  
-    grid-row: 2/3;
-    grid-column: 2/3;
-    margin: 0 auto;
-    grid-template-rows: 1fr 6fr 1fr;
     text-align: center;
-}
-
-.qr-image {
-    object-fit: fill;
 }
 
 .qr-image img {
