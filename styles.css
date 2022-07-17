@@ -43,9 +43,11 @@ p {
     font-family: 'Outfit', sans-serif;
     font-weight: 700;
     font-size: large;
+    color: hsl(218, 44%, 22%);
 }
 
 .secondary-parag p {
     font-family: 'Outfit', sans-serif;
     font-weight: 400;
+    color: hsl(220, 15%, 55%);
 }
